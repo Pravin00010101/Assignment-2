@@ -17,7 +17,6 @@ h1{
 .row {
     margin: auto;
     width: 100%;
-    align
   }
   
   /********** Large devices only **********/
@@ -128,7 +127,10 @@ h1{
     top:0px;
     right :0px;
     background-color:magenta;
-    border : 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     
 }
 #beef{
@@ -139,7 +141,10 @@ h1{
   top:0px;
   right :0px;
   background-color: red;
-  border : 1px solid black;
+  border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
   
 }
 #sushi{
@@ -150,7 +155,10 @@ h1{
   top:0px;
   right :0px;
   background-color: yellow;
-  border : 1px solid black;
+  border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
   
 }
 .content{
